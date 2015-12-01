@@ -1,5 +1,7 @@
 # Robot-Song
 
+https://www.youtube.com/watch?v=tl2slNOtJxw
+
 This is the code for the "Grippers on the Robot" song, an intereactive children song and dance that runs on Baxter. 
 
 This code uses PyAudio to play the music files, which can be downloaded from their website: https://people.csail.mit.edu/hubert/pyaudio
