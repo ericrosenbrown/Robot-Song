@@ -233,9 +233,12 @@ class EinClientBoth:
 	self.forth_command_publisher_r.publish("100 setGreenHalo 100 setRedHalo ;")
 	time.sleep(.5)
 	
-	self.forth_command_publisher_l.publish("1.13 .30 .337 0.02 .80 -0.053 .588 moveToEEPose ;")
-	self.forth_command_publisher_r.publish("1.13 -0.3 0.38 0.02 0.8 0.01 0.59 moveToEEPose ;")
+	#self.forth_command_publisher_l.publish("1.13 .30 .337 0.02 .80 -0.053 .588 moveToEEPose ;")
+	#self.forth_command_publisher_r.publish("1.13 -0.3 0.38 0.02 0.8 0.01 0.59 moveToEEPose ;")
 
+	self.forth_command_publisher_l.publish("assumeShrugPose ;")
+	self.forth_command_publisher_r.publish("assumeShrugPose ;")
+	
 	time.sleep(4)
 	self.forth_command_publisher_l.publish("0 setRedHalo ;")
 	time.sleep(.2)
