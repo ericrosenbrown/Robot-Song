@@ -1,5 +1,7 @@
 # Robot-Song
 
+![title](./mytitle.png)
+
 https://www.youtube.com/watch?v=tl2slNOtJxw
 
 This is the code for the "Grippers on the Robot" song, an intereactive children song and dance that runs on Baxter using Ein (link below)
